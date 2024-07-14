@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+    font-size: var(--px-16);
+    font-family: var(--f-family-inter);
+    line-height: var(--px-24);
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
