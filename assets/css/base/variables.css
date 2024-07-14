@@ -17,6 +17,8 @@
     --color-B2BC-rgba: rgba(177, 178, 188, 0.4);
     --color-1125-rgba: rgba(13, 17, 37, 0.8);
     --gradient-header: linear-gradient(109deg, #131937 0%, rgba(8, 5, 4, 0.00) 45.65%, rgba(8, 5, 4, 0.00) 72.37%, rgba(182, 131, 94, 0.36) 100%);
+
+
     --f-family-inter: 'Inter', sans-serif;
 
     --px-base: 16;
