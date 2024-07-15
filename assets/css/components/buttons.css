@@ -7,3 +7,43 @@
     text-decoration: none;
     transition: all 0.2s;
 }
+
+
+.btn--hamburguer hr{
+    background-color: var(--color-ffff);
+    border-radius: 4px;
+    color: var(--color-ffff);
+    display: block;
+    width: 16px;
+    height: 2px;
+}
+
+.btn--hamburguer hr + hr{
+    margin-top: 2px;
+}
+
+.btn--magnifier-sm{
+    width: 40px;
+    height: 40px;
+    padding: 12px;
+}
+.btn--hamburguer:active,
+.btn--hamburguer:hover,
+.btn--magnifier-sm:active,
+.btn--magnifier-sm:hover{
+    background-color: var(--color-AEEF);
+}
+
+.btn--signature-1{
+    background-color: var(--color-3F4D);
+    display: block;
+    font-weight: 700;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+.btn--signature-1:active,
+.btn--signature-1:hover{
+    background-color: var(--color-B2BC-rgba);
+}    

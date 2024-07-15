@@ -9,32 +9,3 @@
     align-items: center;
     justify-content: space-between;
 }
-
-.btn--hamburguer hr{
-    background-color: var(--color-ffff);
-    border-radius: 4px;
-    color: var(--color-ffff);
-    display: block;
-    width: 16px;
-    height: 2px;
-}
-
-.btn--hamburguer hr + hr{
-    margin-top: 2px;
-}
-
-.btn--hamburguer:active,
-.btn--hamburguer:hover{
-    background-color: var(--color-AEEF);
-}
-
-.btn--magnifier-sm{
-    width: 40px;
-    height: 40px;
-    padding: 12px;
-}
-
-.btn--magnifier-sm:active,
-.btn--magnifier-sm:hover{
-    background-color: var(--color-AEEF);
-}

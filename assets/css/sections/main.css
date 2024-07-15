@@ -1,0 +1,30 @@
+.main__hero{
+    padding-top: 76px;
+    padding-bottom: 80px;
+}
+
+.main__hero-question {
+    background: var(--branding-color-primary-gradient, linear-gradient(270deg, #0074BC 0%, #00AEEF 100%));
+
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 28px;
+    text-transform: uppercase;
+}
+
+.main__hero-title{
+    color: var(--color-ffff);
+    font-size: var(--px-32);
+    font-weight: 700;
+    line-height: var(--px-40);
+    margin-bottom: 56px;
+}
+
+.main__hero-text{
+    color: var(--color-F1F4);
+    margin-bottom: 32px;
+}
