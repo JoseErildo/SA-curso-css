@@ -3,7 +3,6 @@
 .background{
     color: transparent;
     height: 914px;
-    background-color: red;
     position: relative;
 }
 
@@ -34,7 +33,6 @@
     top: 0;
     width: 100%;
     z-index: 2;   
-    background-color: aqua;
 }
 
 @media (min-width: 1200px){

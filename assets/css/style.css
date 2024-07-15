@@ -1,4 +1,7 @@
 @import "./base/variables.css";
 @import "./base/reset.css";
 @import "./base/containers.css";
-@import "./components/bg-gradient.css"
+@import "./components/bg-gradient.css";
+@import "./components/buttons.css";
+@import "./sections/header.css";
+
