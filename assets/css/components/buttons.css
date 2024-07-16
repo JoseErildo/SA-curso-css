@@ -87,3 +87,9 @@
 .btn--access:active{
     background-color: var(--color-B2BC-rgba);
 }
+
+@media (min-width: 768px) {
+    .btn--save {
+      background-color: transparent;
+    }
+  }
