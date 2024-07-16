@@ -47,3 +47,43 @@
 .btn--signature-1:hover{
     background-color: var(--color-B2BC-rgba);
 }    
+
+.btn--save{
+    background-color: var(--color-1125);
+    border: 1px solid var(--color-6176);
+    display: flex;
+    align-items: center;
+    max-width: 124px;
+    max-height: 54px;
+    padding: 16px 20px;
+}
+
+.btn--save img{
+    margin-right: 8px;
+}
+
+.btn--save span{
+    font-size: var(--px-14);
+    font-weight: 700;
+    line-height: var(--px=22);
+}
+
+.btn--save:hover,
+.btn--save:active{
+    background-color: var(--color-B2BC-rgba);
+}
+
+.btn--access{
+    background-color: var(--color--0000);
+    font-size: var(--px-14);
+    font-weight: 700;
+    line-height: var(--px-22);
+    width: 97px;
+    height: 54px;
+    padding: 16px 20px;
+}
+
+.btn--access:hover,
+.btn--access:active{
+    background-color: var(--color-B2BC-rgba);
+}

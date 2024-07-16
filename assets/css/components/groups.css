@@ -1,0 +1,8 @@
+.group-highlights{
+    display: grid;
+    gap: 20px 0;
+}
+
+.group-highlights article:last-child{
+    display: none;
+}
