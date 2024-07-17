@@ -1,0 +1,26 @@
+.bullets {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+  }
+  
+  @media (min-width: 768px) {
+    .bullets {
+      display: none;
+    }
+  }
+  
+  .bullet-1,
+  .bullet-2,
+  .bullet-3 {
+    width: 8px;
+    height: 8px;
+    background-color: var(--color-EAF1);
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  .bullet--active {
+    background: linear-gradient(270.27deg, var(--color-74BC) 0%, var(--color-AEEF) 100%);
+  }
+  

@@ -36,3 +36,24 @@
     line-height: var(--px-30);
     margin-bottom: 24px;
 }
+
+
+.main__news {
+    margin-top: 56px;
+    margin-bottom: 72px;
+  }
+  
+  .main__news-title {
+    color: var(--color-0000);
+    font-size: var(--px-22);
+    font-weight: 700;
+    line-height: var(--px-30);
+    margin-bottom: 16px;
+  }
+  
+  @media (min-width: 768px) {
+    .main__news-title {
+      font-size: var(--px-28);
+      line-height: var(--px-36);
+    }
+  }

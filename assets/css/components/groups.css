@@ -38,3 +38,34 @@
       display: none;
     }
   }
+
+  
+.group--news {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 24px;
+}
+
+.group--news article ~ article {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .group--news {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .group--news article ~ article {
+    display: flex;
+  }
+}
+
+@media (min-width: 1440px) {
+  .group--news {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .group--news article:last-child {
+    display: none;
+  }
+}
