@@ -1,0 +1,47 @@
+:root {
+    --color-ffff: #fff;
+    --color-0000: #000;
+    --color-EEF7: #EAEEF7;
+    --color-1125: #0D1125;
+    --color-AEEF: #00AEEF;
+    --color-F1F4: #E3F1F4;
+    --color-B2BC: #B1B2BC;
+    --color-EAF1: E9EAF1;
+    --color-3F4D: #3D3F4D;
+    --color-6176: #5E6176;
+    --color-748C: #0074BC;
+    --color-1627: #131627;
+    --color-1937: #131937;
+    --color-50400: #08050400;
+    --color-35E5C: #B6835E5C;
+    --color-B2BC-rgba: rgba(177, 178, 188, 0.4);
+    --color-1125-rgba: rgba(13, 17, 37, 0.8);
+    --gradient-header: linear-gradient(109deg, #131937 0%, rgba(8, 5, 4, 0.00) 45.65%, rgba(8, 5, 4, 0.00) 72.37%, rgba(182, 131, 94, 0.36) 100%);
+
+
+    --f-family-inter: 'Inter', sans-serif;
+
+    --px-base: 16;
+    --px-to-rem: 1rem;
+
+    --px-14: calc(14 / var(--px-base) * var(--px-to-rem));
+    --px-22: calc(22 / var(--px-base) * var(--px-to-rem));
+
+    --px-16: calc(16 / var(--px-base) * var(--px-to-rem));
+    --px-24: calc(24 / var(--px-base) * var(--px-to-rem));
+
+    --px-18: calc(18 / var(--px-base) * var(--px-to-rem));
+    --px-26: calc(26 / var(--px-base) * var(--px-to-rem));
+
+    --px-28: calc(28 / var(--px-base) * var(--px-to-rem));
+    --px-36: calc(36 / var(--px-base) * var(--px-to-rem));
+
+    --px-30: calc(30 / var(--px-base) * var(--px-to-rem));
+    --px-38: calc(38 / var(--px-base) * var(--px-to-rem));
+
+    --px-32: calc(32 / var(--px-base) * var(--px-to-rem));
+    --px-40: calc(40 / var(--px-base) * var(--px-to-rem));
+
+    --px-48: calc(48 / var(--px-base) * var(--px-to-rem));
+    --px-24: calc(24 / var(--px-base) * var(--px-to-rem));
+}
