@@ -166,5 +166,27 @@
       width: 368px;
     }
   }
+  
+.btn--nav-footer {
+  background-color: transparent;
+  color: var(--color-F1F4);
+  display: block;
+  font-weight: 700;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+}
+
+.btn--nav-footer:active,
+.btn--nav-footer:hover {
+  background-color: var(--color-B2BC-rgba);
+}
+
+@media (min-width: 768px) {
+  .btn--nav-footer {
+    padding: 12px;
+  }
+}
+
 
   

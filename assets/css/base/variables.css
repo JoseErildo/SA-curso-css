@@ -1,22 +1,23 @@
 :root {
-    --color-ffff: #fff;
-    --color-0000: #000;
+    --color-ffff: #ffffff;
+    --color-0000: #000000;
     --color-EEF7: #EAEEF7;
     --color-1125: #0D1125;
     --color-AEEF: #00AEEF;
     --color-F1F4: #E3F1F4;
     --color-B2BC: #B1B2BC;
-    --color-EAF1: E9EAF1;
+    --color-EAF1: #E9EAF1;
     --color-3F4D: #3D3F4D;
     --color-6176: #5E6176;
-    --color-748C: #0074BC;
+    --color-74BC: #0074BC;
     --color-1627: #131627;
     --color-1937: #131937;
-    --color-50400: #08050400;
-    --color-35E5C: #B6835E5C;
+    --color-50400: #08050400; 
+    --color-35E5C: #B6835E5C; 
     --color-B2BC-rgba: rgba(177, 178, 188, 0.4);
     --color-1125-rgba: rgba(13, 17, 37, 0.8);
-    --gradient-header: linear-gradient(109deg, #131937 0%, rgba(8, 5, 4, 0.00) 45.65%, rgba(8, 5, 4, 0.00) 72.37%, rgba(182, 131, 94, 0.36) 100%);
+
+    --gradient-header: linear-gradient(108.88deg, var(--color-1937) 0%, var(--color-50400) 45.65%, var(--color-50400) 72.37%, var(--color-35E5C) 100%) no-repeat;
 
 
     --f-family-inter: 'Inter', sans-serif;
