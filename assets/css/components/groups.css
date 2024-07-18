@@ -69,3 +69,24 @@
     display: none;
   }
 }
+
+.group--categories-sm .accordion:last-child .cards--sm,
+.group--categories-sm .accordion:last-child .cards--md {
+  margin-bottom: 0;
+}
+
+@media (min-width: 1025px) {
+  .group--categories-sm {
+    display: none;
+  }
+}
+
+.group--categories-lg {
+  display: none;
+}
+
+@media (min-width: 1025px) {
+  .group--categories-lg {
+    display: block;
+  }
+}
