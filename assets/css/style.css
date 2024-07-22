@@ -1,0 +1,19 @@
+@import "./base/variables.css";
+@import "./base/reset.css";
+@import "./base/containers.css";
+
+@import "./components/bg-gradient.css";
+@import "./components/buttons.css";
+@import "./components/cards.css";
+@import "./components/groups.css";
+@import "./components/bullets.css";
+@import "./components/arrow.css";
+@import "./components/accordion.css";
+@import "./components/forms.css";
+
+
+@import "./sections/header.css";
+@import "./sections/main.css";
+@import "./sections/footer.css";
+
+@import "./pages/page-home.css";

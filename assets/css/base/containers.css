@@ -1,0 +1,24 @@
+.container {
+    --container: 343px;
+
+    max-width: var(--container);
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .container{
+        --container: 740px;
+    }
+}
+
+@media (min-width: 1025px){
+    .container{
+        --container: 1000px;
+    }
+}
+
+@media (min-width: 1440px){
+    .container{
+        --container: 1440px;
+    }
+}
