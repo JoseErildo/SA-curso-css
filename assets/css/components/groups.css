@@ -1,45 +1,45 @@
 .group--highlights {
-    display: grid;
-    gap: 20px 0;
+  display: grid;
+  gap: 20px 0;
+}
+
+@media (min-width: 768px) {
+  .group--highlights {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 24px;
   }
-  
-  @media (min-width: 768px) {
-    .group--highlights {
-      grid-template-columns: 1fr 1fr;
-      gap: 20px 24px;
-    }
+}
+
+@media (min-width: 1025px) {
+  .group--highlights {
+    grid-template-columns: 1fr 224px 244px;
+    gap: 0 24px;
   }
-  
-  @media (min-width: 1025px) {
-    .group--highlights {
-      grid-template-columns: 1fr 224px 244px;
-      gap: 0 24px;
-    }
+}
+
+@media (min-width: 1440px) {
+  .group--highlights {
+    grid-template-columns: 587px 282px 282px;
   }
-  
-  @media (min-width: 1440px) {
-    .group--highlights {
-      grid-template-columns: 587px 282px 282px;
-    }
+}
+
+.group--highlights article:last-child {
+  display: none;
+}
+
+@media (min-width: 768px)  {
+  .group--highlights article:last-child {
+    display: block;
   }
-  
+}
+
+@media (min-width: 1025px) {
   .group--highlights article:last-child {
     display: none;
   }
-  
-  @media (min-width: 768px)  {
-    .group--highlights article:last-child {
-      display: block;
-    }
-  }
-  
-  @media (min-width: 1025px) {
-    .group--highlights article:last-child {
-      display: none;
-    }
-  }
+}
 
-  
+
 .group--news {
   display: grid;
   grid-template-columns: 1fr;
@@ -89,4 +89,65 @@
   .group--categories-lg {
     display: block;
   }
+}
+
+.group--nav-footer {
+  list-style: none;
+  margin-bottom: 52px;
+}
+
+@media (min-width: 768px) {
+  .group--nav-footer {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+}
+
+.group--social {
+  display: flex;
+  justify-content: center;
+  column-gap: 14px;
+  list-style: none;
+}
+
+.group--nav-pages {
+  background-color: var(--color-0000);
+  list-style: none;
+  margin-bottom: 24px;
+  display: grid;
+  grid-template-areas: 
+  "first third"
+  "second fourth";
+  justify-content: space-around;
+}
+
+@media (min-width: 768px) {
+  .group--nav-pages {
+    grid-template-areas: 
+    "first second third fourth";
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .group--nav-pages {
+    margin-bottom: 0;
+  }
+}
+
+.group--nav-pages .first {
+  grid-area: first;
+}
+
+.group--nav-pages .second {
+  grid-area: second;
+}
+
+.group--nav-pages .third {
+  grid-area: third;
+}
+
+.group--nav-pages .fourth {
+  grid-area: fourth;
 }

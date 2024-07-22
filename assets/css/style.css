@@ -9,8 +9,10 @@
 @import "./components/bullets.css";
 @import "./components/arrow.css";
 @import "./components/accordion.css";
+@import "./components/forms.css";
 
 
 @import "./sections/header.css";
 @import "./sections/main.css";
+@import "./sections/footer.css";
 
