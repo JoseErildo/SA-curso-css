@@ -114,7 +114,6 @@
   }
 }
 
-
 .main__insights {
   background-color:  var(--color-1627);
   margin-bottom: 72px;
@@ -231,6 +230,7 @@
 .main__insights-text a:hover {
   color: var(--color-B2BC);
 }
+
 
 .main__categories-title {
   color: var(--color-1125);
