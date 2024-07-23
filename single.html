@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Página do post">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="./assets/css/style.css"/>
+	
+  <title>PAGE: SINGLE</title>
+</head>
+<body class="page-single">
+
+  <header class="header">
+    <div class="container">
+      <a class="header__toggle btn btn--hamburguer" 
+          href="#menu-mobile" 
+          aria-label="botão para abrir o menu"
+          type="button">
+        <hr>
+        <hr>
+        <hr>
+      </a>
+
+      <a class="header__logo" href="#" aria-label="link para a página inicial">
+        <img src="./assets/img/logo.svg" aria-hidden="true" loading="lazy" width="125" height="56">
+      </a>
+
+      <a class="header__toggle btn btn--magnifier-sm" 
+          href="#menu-mobile" 
+          aria-label="botão para abrir o menu"
+          type="button">
+        <img src="./assets/img/icon-button-search.svg" aria-hidden="true" loading="lazy" width="16" height="16">
+      </a>
+
+      <section id="menu-mobile" class="header__nav">
+
+        <a class="header__nav-close btn btn--close"
+            href="#" 
+            aria-label="botão para fechar o menu">
+          &times;
+        </a>
+
+        <div class="container">
+          <form class="header__nav-search form form--nav">
+            
+            <input  class="input input--search"
+                    type="search" 
+                    placeholder="Digite para buscar" 
+                    aria-label="campo para buscar por algo">
+  
+                    
+            <button class="btn btn--search-sm" 
+                    type="submit" 
+                    aria-label="botão que inicia a pesquisa">
+              <img src="./assets/img/icon-button-search.svg" alt="lupa de pesquisa" width="16" height="16" loading="lazy">
+            </button>
+          </form>
+
+          <div class="header__nav-social">
+            <ul class="group--social">
+              <li>
+                <a class="btn btn--social" href="#">
+                  <img src="./assets/img/icon-social-facebook.svg" alt="facebook" loading="lazy" width="9" height="16">
+                </a>
+              </li>
+
+              <li>
+                <a class="btn btn--social" href="#">
+                  <img src="./assets/img/icon-social-instagram.svg" alt="instagram" loading="lazy" width="16" height="16">
+                </a>
+              </li>
+
+              <li>
+                <a class="btn btn--social" href="#">
+                  <img src="./assets/img/icon-social-twitter.svg" alt="twitter" loading="lazy" width="16" height="13">
+                </a>
+              </li>
+
+              <li>
+                <a class="btn btn--social" href="#">
+                  <img src="./assets/img/icon-social-linkedin.svg" alt="linkedin" loading="lazy" width="15" height="16">
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <nav class="header__nav-links">
+            <ul>
+              <li>
+                <a class="btn btn--nav" href="#">Bitcoin</a>
+              </li>
+
+              <li>
+                <a class="btn btn--nav" href="#">Ethereum</a>
+              </li>
+
+              <li>
+                <a class="btn btn--nav" href="#">DeFi</a>
+              </li>
+
+              <li>
+                <a class="btn btn--nav" href="#">NFT</a>
+              </li>
+
+              <li>
+                <a class="btn btn--nav" href="#">Markets</a>
+              </li>
+            </ul>
+          </nav>
+
+          <div class="header__nav-btns">
+            <ul>
+              <li>
+                
+                <button class="btn btn--magnifier-lg">
+                  <img src="./assets/img/icon-button-search.svg" alt="lupa de pesquisa" loading="lazy" width="16" height="16">
+
+                  <span>
+                    &times;
+                  </span>
+                </button>
+              </li>
+
+              <li>
+                
+                <a class="btn btn--login" 
+                    href="#"
+                    aria-label="ir para a página de login">
+                  <img aria-hidden="true" src="./assets/img/user.svg" loading="lazy" width="17" height="17">
+                  Login
+                </a>
+              </li>
+
+              <li>
+                
+                <a class="btn btn--sign-1" 
+                    href="#"
+                    aria-label="ir para a página de cadastro">
+                  Assine já
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main class="main">
+    <section class="main__hero">
+      <div class="container">
+        <div class="main__hero-content">
+          <a href="#" class="category">
+            NFT
+          </a>
+
+          <h1 class="title">
+            Dawn of the Guilds: Colonizadores do Metaverso
+          </h1>
+
+          <time class="time">
+            16/03/2023
+          </time>
+
+          <span class="author">
+            <a href="#" class="author-img">
+              <img src="./assets/img/lars-hoffmann.png" alt="Autor(a) do post Lars Hoffmann"
+                   loading="lazy" width="40" height="40">
+            </a>
+
+            <a href="#" class="author-name">
+              Lars Hoffmann
+            </a>
+          </span>
+        </div>
+      </div>
+
+      <div class="main__hero-img">
+        <img src="./assets/img/imagem-destaque-post.jpg" alt="Imagem de destaque do post"
+             loading="lazy" width="826" height="458">
+      </div>
+    </section>
+  </main>
+
+  <article class="article">
+    <div class="container">
+      <section class="article__share group--share">
+        <div class="article__share-group group--share-social">
+          <span>
+            Compartilhar
+          </span>
+
+          <ul class="group--social">
+            <li>
+              <a href="#" class="btn btn--social">
+                <img src="./assets/img/icon-social-facebook.svg" alt="facebook" loading="lazy" width="9" height="16">
+              </a>
+            </li>
+    
+            <li>
+              <a href="#" class="btn btn--social">
+                <img src="./assets/img/icon-social-instagram.svg" alt="instagram" loading="lazy" width="16" height="16">
+              </a>
+            </li>
+    
+            <li>
+              <a href="#" class="btn btn--social">
+                <img src="./assets/img/icon-social-twitter.svg" alt="twitter" loading="lazy" width="16" height="13">
+              </a>
+            </li>
+    
+            <li>
+              <a href="#" class="btn btn--social">
+                <img src="./assets/img/icon-social-linkedin.svg" alt="linkedin" loading="lazy" width="15" height="16">
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="article__share-group group--share-btns">
+          <button class="btn btn--save" aria-label="botão guardar">
+            <img aria-hidden="true" loading="lazy"
+                 src="./assets/img/bookmark.png" width="20" height="20"/>
+
+            <span>
+              Guardar
+            </span>
+          </button>
+
+          <a class="btn btn--report" href="#" download="">
+            <img aria-hidden="true" src="./assets/img/icon-download.svg" loading="lazy" width="20" height="20"/>
+
+            Baixar relatório
+          </a>
+        </div>
+      </section>
+
+      <section class="article__content">
+        <h2 class="article__content-subtitle">
+          Liderados pela Axie Infinity, os jogos de blockchain continuam sendo um fator significativo dos volumes globais de NFT
+        </h2>
+
+        <p class="article__content-text">
+          Axie Infinity, tendo sido pioneira no conceito de Play-to-Earn, experimentou uma ascensão meteórica no terceiro trimestre deste ano. Agora fica atrás apenas do próprio Ethereum em termos de receita gerada. Ele trouxe uma atenção significativa para os jogos de criptografia como um setor e se tornou um forte indicador de sua saúde geral. O crescimento impressionante de sua economia e base de usuários levou muitos a traçar paralelos com o crescimento de jogos como Candy Crush, no advento do celular gratuito. Axie está ativamente integrando milhões de jogadores no espaço blockchain, validando a tese de que os jogos podem muito bem ser o cavalo de tróia para a adoção global de blockchain. Para um mergulho mais profundo na ascensão do Axie, confira nossa série de relatórios de várias partes do Axie Infinity o que explica algumas das principais mecânicas por trás dessa fascinante economia virtual.
+        </p>
+
+        <figure class="article__content-figure">
+          <picture>
+            <source media="(max-width: 768px)" 
+                    srcset="./assets/img/image-1-article-mobile.png" width="343" height="182"/>
+    
+            <img src="./assets/img/image-1-article-desktop.png" width="792" height="420"
+                 loading="lazy"
+                 alt="imagem do post colonizadores do metaverso"/>
+          </picture>
+    
+          <figcaption>
+            Axie Infinity Receita de taxas mensais e cumulativos para tesouraria
+          </figcaption>
+        </figure>
+
+        <h3 class="article__content-subtitle">
+          Principais dicas
+        </h3>
+
+        <ul class="article__content-list">
+          <li>
+            Liderados pela Axie Infinity, os jogos de blockchain continuam sendo um fator significativo dos volumes globais de NFT.
+          </li>
+    
+          <li>
+            As guildas de jogar para ganhar estão começando a impulsionar uma atividade econômica significativa em várias economias virtuais, por meio de uma combinação de estratégias de geração de rendimento, como a concessão de bolsas de estudo.
+          </li>
+    
+          <li>
+            A Yield Guild, como pioneira desse movimento, alcançou velocidade de escape antes de toda competição, de modo que agora está investindo ativamente em outras guildas , bem como em ativos no jogo (NFTs) e outros tokens (por exemplo, governança).
+          </li>
+    
+          <li>
+            Apesar da proeminência da YGG, a BlackPool na verdade detém um pouco mais de ativos NFT (apesar de AUM significativamente menor) do que a Yield Guild ($ 17,8 milhões vs $ 17,6 milhões).
+          </li>
+        </ul>
+
+        <h3 class="article__content-subtitle">
+          A Yield Guild fundou o conceito de um DAO para jogos de jogar para ganhar
+        </h3>
+
+        <p class="article__content-text">
+          Como tal, se beneficiou de sua vantagem de pioneirismo. Tendo encontrado apoio institucional robusto desde o início com sucessivas rodadas de investimento lideradas por Delphi, BITKRAFT e a16z, surgiu como um forte índice neste setor emergente, como exploraremos abaixo. Eles não apenas conseguiram se estabelecer como um fornecedor líder de bolsas de estudo no Axie Infinity, mas seu braço de investimento garantiu ativos principais em vários jogos líderes de blockchain, além de fazer investimentos iniciais em novos projetos que pretendem ser lançados. Como o DAO P2E mais conhecido, eles são capazes de garantir termos preferenciais como uma fonte inicial de liquidez do jogador para jogos que buscam bootstrap.
+        </p>
+
+        <figure class="article__content-figure">
+          <picture>
+            <source media="(max-width: 768px)" 
+                    srcset="./assets/img/image-2-article-mobile.png" width="343" height="199"/>
+    
+            <img src="./assets/img/image-2-article-desktop.png" width="792" height="460"
+                 loading="lazy"
+                 alt="imagem do post colonizadores do metaverso"/>
+          </picture>
+    
+          <figcaption>
+            Estrutura Conceitual para a meta-guild da YGG
+          </figcaption>
+        </figure>
+
+        <h3 class="article__content-subtitle">
+          Yield Guild está em posição de fornecer suporte financeiro e operacional antecipado para novas guildas de terceiros
+        </h3>
+
+        <div class="article__content-text">
+          <p>
+            Desde o início, a Yield Guild sempre teve a intenção de operar vários subDAOs com diferentes focos regionais ou de jogo para acomodar um crescimento rápido, bem como fornecer aos usuários granularidade em relação às partes da guilda mais ampla com as quais eles se envolvem. Conforme ilustrado no diagrama acima, você pode pensar no YGG como um organismo multicelular com subunidades trabalhando para sustentar o todo. O gráfico abaixo ilustra ainda mais o conceito de um subDAO.
+          </p>
+
+          <p>
+            Axie Infinity e Sorare combinados representam a maioria dos ativos de propriedade da Yield Guild Games e BlackPool, como pode ser visto no gráfico abaixo. Isso faz sentido quando se considera que a maior parte da receita do jogo para ganhar gerada pelas guildas é obtida com esses jogos, que exploraremos mais adiante neste relatório. Com o tempo, à medida que mais economias entrarem em operação com fortes loops play-to-ganhar, esperamos mais diversificação.
+          </p>
+        </div>
+      </section>
+
+      <section class="article__share">
+        <div class="group--share">
+          <section class="article__share-group group--share-social">
+            <span>
+              Compartilhar
+            </span>
+  
+            <ul class="group--social">
+              <li>
+                <a href="#" class="btn btn--social">
+                  <img src="./assets/img/icon-social-facebook.svg" alt="facebook" loading="lazy" width="9" height="16">
+                </a>
+              </li>
+      
+              <li>
+                <a href="#" class="btn btn--social">
+                  <img src="./assets/img/icon-social-instagram.svg" alt="instagram" loading="lazy" width="16" height="16">
+                </a>
+              </li>
+      
+              <li>
+                <a href="#" class="btn btn--social">
+                  <img src="./assets/img/icon-social-twitter.svg" alt="twitter" loading="lazy" width="16" height="13">
+                </a>
+              </li>
+      
+              <li>
+                <a href="#" class="btn btn--social">
+                  <img src="./assets/img/icon-social-linkedin.svg" alt="linkedin" loading="lazy" width="15" height="16">
+                </a>
+              </li>
+            </ul>
+          </section>
+  
+          <section class="article__share-group group--share-btns">
+            <button class="btn btn--save" aria-label="botão guardar">
+              <img aria-hidden="true" loading="lazy"
+                   src="./assets/img/bookmark.png" width="20" height="20"/>
+  
+              <span>
+                Guardar
+              </span>
+            </button>
+  
+            <a class="btn btn--report" href="#" download="">
+              <img aria-hidden="true" src="./assets/img/icon-download.svg" loading="lazy" width="20" height="20"/>
+  
+              Baixar relatório
+            </a>
+          </section>
+        </div>
+
+        <div class="group--share-tags">
+          <hr class="line-1">
+          <hr class="line-2">
+
+          <span>
+            Tags
+          </span>
+
+          <ul class="group--share-list">
+            <li>
+              <a href="#" class="btn btn--tag">
+                Gaming
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="btn btn--tag">
+                Yield Farming
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn--tag" href="#">
+                Perpetuals
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn--tag" href="#">
+                Governance
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn--tag" href="#">
+                Insurance
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn--tag" href="#">
+                Prediction Markets
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn--tag" href="#">
+                Leading
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn--tag" href="#">
+                Synths
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn--tag" href="#">
+                Oracles
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn--tag" href="#">
+                Perpetuals
+              </a>
+            </li>
+
+            <li>
+              <a class="btn btn--tag" href="#">
+                Borrowing
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </div>
+  </article>
+
+  <section class="main__news">
+    <div class="container">
+      <h2 class="main__news-title">
+        <span>Relatórios relacionados</span> Mais recentes
+      </h2>
+    </div>
+
+    <div class="container">
+      <section class="main__news-group group--news">
+        <article class="card card--mini">
+          <header>
+            <a href="#">
+              <picture>
+                <source media="(max-width: 1025px)"
+                        srcset="./assets/img/nft-mais-recentes-mobile.png"
+                        width="119" height="215">
+
+                <img src="./assets/img/nft-mais-recentes-desktop.png" alt="Imagem do artigo NFT" width="160" height="215" loading="lazy">
+              </picture>
+            </a>
+          </header>
+
+          <div class="half">
+            <section>
+              <a href="#" class="category">
+                NFT
+              </a>
+
+              <a href="#" class="title">
+                <h3>
+                  Inteligência da empresa Dapper Labs
+                </h3>
+              </a>
+
+              <hr class="line-1">
+              <hr class="line-2">
+            </section>
+
+            <footer>
+              <button class="btn btn--save" aria-label="botão guardar post">
+                <img src="./assets/img/bookmark.png" loading="lazy" width="20" height="20" aria-hidden="true">
+
+                <span>
+                  Guardar
+                </span>
+              </button>
+
+              <a href="#" class="btn btn--access">
+                Acessar
+              </a>
+            </footer>
+          </div>
+        </article>
+
+        <div class="bullets">
+          <div class="bullet-1 bullet--active"></div>
+          <div class="bullet-2"></div>
+          <div class="bullet-3"></div>
+        </div>
+
+        <article class="card card--mini">
+          <header>
+            <a href="#">
+              <picture>
+                <source media="(max-width: 1025px)"
+                        srcset="./assets/img/nft-mais-recentes-mobile.png"
+                        width="119" height="215">
+
+                <img src="./assets/img/ethereum-mais-recentes-desktop.png" alt="Imagem do artigo NFT" width="160" height="215" loading="lazy">
+              </picture>
+            </a>
+          </header>
+
+          <div class="half">
+            <section>
+              <a href="#" class="category">
+                Ethereum
+              </a>
+
+              <a href="#" class="title">
+                <h3>
+                  Camada por camada Edição 23: Solana, NEAR e Polkadot
+                </h3>
+              </a>
+
+              <hr class="line-1">
+              <hr class="line-2">
+            </section>
+
+            <footer>
+              <button class="btn btn--save" aria-label="botão guardar post">
+                <img src="./assets/img/bookmark.png" loading="lazy" width="20" height="20" aria-hidden="true">
+
+                <span>
+                  Guardar
+                </span>
+              </button>
+
+              <a href="#" class="btn btn--access">
+                Acessar
+              </a>
+            </footer>
+          </div>
+        </article>
+
+        <article class="card card--mini">
+          <header>
+            <a href="#">
+              <picture>
+                <source media="(max-width: 1025px)"
+                        srcset="./assets/img/nft-mais-recentes-mobile.png"
+                        width="119" height="215">
+
+                <img src="./assets/img/defi-mais-recentes-desktop.png" alt="Imagem do artigo NFT" width="160" height="215" loading="lazy">
+              </picture>
+            </a>
+          </header>
+
+          <div class="half">
+            <section>
+              <a href="#" class="category">
+                DEFI
+              </a>
+
+              <a href="#" class="title">
+                <h3>
+                  Axie Infinity Parte 2: Visão geral de seu mundo virtual, Lunacia
+                </h3>
+              </a>
+
+              <hr class="line-1">
+              <hr class="line-2">
+            </section>
+
+            <footer>
+              <button class="btn btn--save" aria-label="botão guardar post">
+                <img src="./assets/img/bookmark.png" loading="lazy" width="20" height="20" aria-hidden="true">
+
+                <span>
+                  Guardar
+                </span>
+              </button>
+
+              <a href="#" class="btn btn--access">
+                Acessar
+              </a>
+            </footer>
+          </div>
+        </article>
+
+        <article class="card card--mini">
+          <header>
+            <a href="#">
+              <picture>
+                <source media="(max-width: 1025px)"
+                        srcset="./assets/img/nft-mais-recentes-mobile.png"
+                        width="119" height="215">
+
+                <img src="./assets/img/nft-mais-recentes-desktop.png" alt="Imagem do artigo NFT" width="160" height="215" loading="lazy">
+              </picture>
+            </a>
+          </header>
+
+          <div class="half">
+            <section>
+              <a href="#" class="category">
+                NFT
+              </a>
+
+              <a href="#" class="title">
+                <h3>
+                  Inteligência da empresa Dapper Labs
+                </h3>
+              </a>
+
+              <hr class="line-1">
+              <hr class="line-2">
+            </section>
+
+            <footer>
+              <button class="btn btn--save" aria-label="botão guardar post">
+                <img src="./assets/img/bookmark.png" loading="lazy" width="20" height="20" aria-hidden="true">
+
+                <span>
+                  Guardar
+                </span>
+              </button>
+
+              <a href="#" class="btn btn--access">
+                Acessar
+              </a>
+            </footer>
+          </div>
+        </article>
+      </section>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <a href="#" class="footer__img" aria-label="link para a pagina inicial">
+        <img src="./assets/img/logo.svg" width="124" height="56" loading="lazy"
+              aria-hidden="true">
+      </a>
+
+      <nav class="footer__nav" aria-label="categorias">
+        <ul class="footer__nav-list group--nav-footer">
+          <li>
+            <a href="#" class="btn btn--nav-footer">Blockchain</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn--nav-footer">DEFI</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn--nav-footer">NFT</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn--nav-footer">Ethereum</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn--nav-footer">Bitcoin</a>
+          </li>
+
+          <li>
+            <a href="#" class="btn btn--nav-footer">Markets</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+    <div class="container">
+      <p class="footer__text">
+        Assine nossa newsletter e fique por dentro das novidades
+      </p>
+
+      <div class="footer__form form form--newsletter">
+        <input type="text" class="input input--1" placeholder="Digite aqui seu e-mail">
+
+        <button class="btn btn--sign-2" type="submit">
+          Assinar
+        </button>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="footer__social group--social">
+        <li>
+          <a href="#" class="btn btn--social">
+            <img src="./assets/img/icon-social-facebook.svg" alt="facebook" loading="lazy" width="9" height="16">
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="btn btn--social">
+            <img src="./assets/img/icon-social-instagram.svg" alt="instagram" loading="lazy" width="16" height="16">
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="btn btn--social">
+            <img src="./assets/img/icon-social-twitter.svg" alt="twitter" loading="lazy" width="16" height="13">
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="btn btn--social">
+            <img src="./assets/img/icon-social-linkedin.svg" alt="linkedin" loading="lazy" width="15" height="16">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <hr class="footer__line line--1">
+
+    <div class="container">
+      <hr class="footer__line line--2">
+
+      <nav aria-label="páginas" class="footer__nav">
+        <ul class="footer__nav-list group--nav-pages">
+          <li class="first">
+            <a href="#" class="btn btn--nav-pages">Quem somos</a>
+          </li>
+
+          <li class="second">
+            <a href="#" class="btn btn--nav-pages">Assinatura</a>
+          </li>
+
+          <li class="third">
+            <a href="#" class="btn btn--nav-pages">Como funciona</a>
+          </li>
+
+          <li class="fourth">
+            <a href="#" class="btn btn--nav-pages">Fale conosco</a>
+          </li>
+        </ul>
+      </nav>
+
+      <p class="footer__copy">
+        &copy; 2023 Studio Academy. Todos os direitos reservados
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
